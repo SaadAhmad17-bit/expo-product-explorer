@@ -12,6 +12,7 @@ export default function HomeScreen() {
       <Text style={styles.info}>Roll No: 23i-3076</Text>
 
       <Pressable
+        accessibilityRole="button"
         style={styles.button}
         onPress={() => setMessageVisible(!messageVisible)}
       >
